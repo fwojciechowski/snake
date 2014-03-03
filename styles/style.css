@@ -1,0 +1,99 @@
+@font-face {
+	font-family: Electrolize;
+	src: url('../fonts/Electrolize/Electrolize-Regular.ttf');
+}
+
+@font-face {
+	font-family: RumRaisin;
+	src: url('../fonts/Rum_Raisin/RumRaisin-Regular.ttf');
+}
+
+.hidden {
+	display:none;
+	
+}
+
+body {
+	margin: 0;
+}
+
+#Snake-main {
+	font-size : 40px;
+	background: black;
+	width: 12em;
+	height: 12em;
+	position : absolute;
+    left : 0;
+    top : 0;
+    
+}
+
+#Snake-main .screen {
+    position : absolute;
+    width : 100%;
+    height : 100%;
+    z-index : 10;
+}
+
+
+#Snake {
+	text-align: center;
+}
+
+#points {
+	font-family: Electrolize, sans-serif;
+	font-size: 0.9em;
+	color: white;
+	margin: auto;
+	text-align: center;
+}
+
+.board {
+	position: absolute;
+	top: 1em;
+	left: 1em;
+	background: rgb(200,200,200);
+}
+
+.snake {
+	position: absolute;
+	top: 1em;
+	left: 1em;
+	z-index: 100;
+}
+
+.apples {
+	position: absolute;
+	top: 1em;
+	left: 1em;
+	z-index: 50;
+}
+
+#start-screen {
+	font-family: Electrolize, sans-serif;
+	font-size: 0.8em;
+	position:absolute;
+	top:3em;
+	left:3.5em;
+	z-index: 1000;
+	text-align: center;
+	color: white;
+	height: 8em;
+	width: 8em;
+	background-color: black;
+	border: 5px solid white;
+	border-radius: 1em;
+	box-shadow: 10px 10px 5px gray;
+	box-sizing: padding-box;
+}
+
+#start-screen h1 {
+	font-size: 2em;
+	font-family:RumRaisin, serif;
+	color: green;
+	text-shadow: 0.03em 0.03em 0.03em rgb(255,255,0),
+				-0.03em -0.03em 0.03em rgb(255,255,0),
+				 0.10em 0.15em 0.15em rgb(0,0,0);
+	margin-bottom: 0;
+}
+
